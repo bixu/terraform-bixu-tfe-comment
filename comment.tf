@@ -2,5 +2,13 @@ module "comment" {
   source = "./modules"
 
   team_token   = var.team_token
-  comment = "`Hello, comments!`"
+  comment = <<EOF
+This is a multiline comment.
+
+```
+hello("world)
+```
+
+and...DONE!
+EOF
 }
