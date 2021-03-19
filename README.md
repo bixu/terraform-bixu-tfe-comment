@@ -1,4 +1,4 @@
-# Comment
+# TFE (Terraform Cloud (née Enterprise) Comment
 
 Creates a comment in the current Terraform Cloud Run UI via the Terraform Cloud
 API. Requires a Terraform Cloud [Team Token](https://www.terraform.io/docs/cloud/users-teams-organizations/api-tokens.html#team-api-tokens)
