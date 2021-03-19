@@ -13,7 +13,7 @@ curl --silent "https://app.terraform.io/api/v2/runs/$TFC_RUN_ID/comments" \
 {
   "data": {
     "attributes": {
-      "body": "${var.comment}"
+      "body": ${jsonencode(var.comment)}
     }
   },
   "type": "comments"
