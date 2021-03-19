@@ -1,8 +1,13 @@
-module "comment" {
-  source = "./modules"
+module "simple_comment" {
+  source     = "./modules"
+  team_token = var.team_token
+  comment    = "This is a simple comment."
+}
 
-  team_token   = var.team_token
-  comment = <<EOF
+module "multiline_comment" {
+  source     = "./modules"
+  team_token = var.team_token
+  comment    = <<EOF
 This is a multiline comment.
 
 ```
