@@ -1,2 +1,0 @@
-variable "team_token" {
-}
