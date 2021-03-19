@@ -6,4 +6,5 @@ variable "comment" {
 variable "team_token" {
   type = string
   description = "Terraform Cloud token generated at https://app.terraform.io/app/bixu/settings/teams."
+  sensitive = true
 }
