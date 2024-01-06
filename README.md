@@ -32,7 +32,7 @@ COMMENT
 }
 ```
 
-You can even use Markdown formmating (so long as the Terraform Cloud UI
+You can even use Markdown formatting (so long as the Terraform Cloud UI
 continues to render Markdown):
 
 ```terraform
